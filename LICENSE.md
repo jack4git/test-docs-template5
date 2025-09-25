@@ -21,7 +21,7 @@ Any code snippets or scripts in this repository are licensed under the MIT Licen
 ```
 MIT License
 
-Copyright (c) 2024 {{COMPANY_NAME}}
+Copyright (c) 2024 Test Docs Template5
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

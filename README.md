@@ -70,9 +70,9 @@ Within minutes, you'll have a working documentation system ready for:
 
 | Feature | Template State | Your Repository |
 |---------|---------------|-----------------|
-| Repository name | `{{REPO_NAME}}` | `your-repo-name` |
-| Organization | `{{GITHUB_ORG}}` | `your-github-org` |
-| Company name | `{{COMPANY_NAME}}` | Auto-generated from repo name |
+| Repository name | `test-docs-template5` | `your-repo-name` |
+| Organization | `jack4git` | `your-github-org` |
+| Company name | `Test Docs Template5` | Auto-generated from repo name |
 | Contact info | Placeholders | Default values (customizable) |
 | Dependencies | Listed | Installed and ready |
 | Validation | Configured | Working immediately |

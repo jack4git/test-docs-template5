@@ -1,4 +1,4 @@
-# Contributing to {{COMPANY_NAME}} Documentation
+# Contributing to Test Docs Template5 Documentation
 
 Thank you for your interest in contributing to our documentation! This guide will help you get started.
 
@@ -139,10 +139,10 @@ npm run serve
 
 ## Getting Help
 
-- **Questions**: Open a [discussion](https://github.com/{{GITHUB_ORG}}/{{REPO_NAME}}/discussions)
+- **Questions**: Open a [discussion](https://github.com/jack4git/test-docs-template5/discussions)
 - **Issues**: Use [issue templates](.github/ISSUE_TEMPLATE/)
-- **Slack**: {{SLACK_CHANNEL}}
-- **Email**: {{DOCS_EMAIL}}
+- **Slack**: #docs-help
+- **Email**: docs@example.com
 
 ## Recognition
 

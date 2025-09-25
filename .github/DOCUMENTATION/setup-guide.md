@@ -52,11 +52,11 @@ The GitHub Actions workflow automatically replaces template variables using your
 
 | Variable | Replaced With | Example |
 |----------|---------------|---------|
-| `{{COMPANY_NAME}}` | Repository name (formatted) | "My Docs" (from "my-docs") |
-| `{{REPO_NAME}}` | Repository name | "my-docs" |
-| `{{GITHUB_ORG}}` | Repository owner | "your-org" |
-| `{{DOCS_EMAIL}}` | Default placeholder | "docs@example.com" |
-| `{{SLACK_CHANNEL}}` | Default placeholder | "#docs-help" |
+| `Test Docs Template5` | Repository name (formatted) | "My Docs" (from "my-docs") |
+| `test-docs-template5` | Repository name | "my-docs" |
+| `jack4git` | Repository owner | "your-org" |
+| `docs@example.com` | Default placeholder | "docs@example.com" |
+| `#docs-help` | Default placeholder | "#docs-help" |
 
 **Advanced Customization** (optional): The automatic setup provides sensible defaults. If you need different values, you can manually edit files in your personalized repository or run `npm run init` for interactive customization of all template variables.
 

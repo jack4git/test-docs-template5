@@ -1,7 +1,7 @@
 {
-  "name": "{{REPO_NAME}}",
+  "name": "test-docs-template5",
   "version": "1.0.0",
-  "description": "{{COMPANY_NAME}} Documentation Repository",
+  "description": "Test Docs Template5 Documentation Repository",
   "scripts": {
     "lint": "markdownlint-cli2 'docs/**/*.md' --fix",
     "spell": "cspell 'docs/**/*.md'",
@@ -23,9 +23,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/{{GITHUB_ORG}}/{{REPO_NAME}}"
+    "url": "https://github.com/jack4git/test-docs-template5"
   },
   "keywords": ["documentation", "docs-as-code", "markdown"],
-  "author": "{{DOCS_EMAIL}}",
+  "author": "docs@example.com",
   "license": "MIT"
 }

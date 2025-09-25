@@ -1,0 +1,31 @@
+name: Validate Documentation
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - '.github/workflows/validate.yml'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Markdown Lint
+        run: npm run lint
+      
+      - name: Spell Check
+        run: npm run spell
+      
+      - name: Check Links
+        run: npm run links

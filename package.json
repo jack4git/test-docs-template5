@@ -1,0 +1,31 @@
+{
+  "name": "{{REPO_NAME}}",
+  "version": "1.0.0",
+  "description": "{{COMPANY_NAME}} Documentation Repository",
+  "scripts": {
+    "lint": "markdownlint-cli2 'docs/**/*.md' --fix",
+    "spell": "cspell 'docs/**/*.md'",
+    "links": "markdown-link-check docs/**/*.md",
+    "build:pdf": "node scripts/build-pdf.js",
+    "build:html": "mkdocs build",
+    "serve": "mkdocs serve",
+    "validate": "npm run lint && npm run spell && npm run links",
+    "pre-commit": "npm run validate",
+    "test:setup": "bash scripts/test-setup.sh",
+    "init": "node scripts/init-repo.js"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.6.1",
+    "markdownlint-cli2": "^0.11.0",
+    "markdown-link-check": "^3.11.2",
+    "cspell": "^8.3.2",
+    "inquirer": "^9.2.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/{{GITHUB_ORG}}/{{REPO_NAME}}"
+  },
+  "keywords": ["documentation", "docs-as-code", "markdown"],
+  "author": "{{DOCS_EMAIL}}",
+  "license": "MIT"
+}
